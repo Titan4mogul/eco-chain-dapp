@@ -24,6 +24,10 @@ export default function EcoChainApp() {
   return (
     <main style={{ minHeight: "100vh", backgroundColor: "#f0fdf4", display: "flex", justifyContent: "center", alignItems: "center", padding: "2rem" }}>
       <div style={{ maxWidth: "400px", width: "100%", background: "white", padding: "2rem", borderRadius: "1rem", boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}>
+        
+        {/* 👇 This is your logo! */}
+        <img src="/logo.png" alt="EcoChain Logo" style={{ width: "80px", margin: "0 auto 1rem", display: "block" }} />
+        
         <h1 style={{ fontSize: "2rem", fontWeight: "bold", color: "#166534", textAlign: "center", marginBottom: "1rem" }}>
           EcoChain
         </h1>
